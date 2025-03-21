@@ -165,7 +165,29 @@ public class HomeController {
     }
 }
 ```
+#### **Handling Multiple Paths in a Controller**
+- You can define multiple URL paths for a single controller method using an array in the `@GetMapping` annotation.
+- This is useful when you want different routes (e.g., `/` and `/home`) to serve the same page.
+- Example use case:
+  - Ensuring that both the root URL (`/`) and `/home` point to the same homepage.
+  - Handling different URL variations without creating multiple controller methods.
 
+---
+```java
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class HomeController {
+
+    @GetMapping({"/", "/home"})
+    public String home() {
+        return "index";
+    }
+}
+```
 ### 3️⃣ `resources/`
 This directory contains configuration files, templates, and static assets.
 
