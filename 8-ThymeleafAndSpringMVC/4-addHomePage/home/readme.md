@@ -12,12 +12,6 @@ The **Home Page (`home.html`)** includes:
 ✔️ A **header** with navigation links  
 
 
-### 📌 Expected Output  
-Below is how the home page will look when you run the project in a browser:  
-
-![Home Page Preview](assets/images/home-preview.png)  
-
----
 
 ## 📄 `home.html` Code  
 
@@ -98,12 +92,6 @@ Author URL: http://w3layouts.com
 After the **header**, our home page includes:  
 ✅ A **Banner Section** 
 ✅ A **Features Section**
-
----
-
-### 📌 **Expected Output**  
-
-![Banner & Features Preview](assets/images/banner-features-preview.png)  
 
 ---
 
@@ -188,11 +176,6 @@ After the **feature**, our home page includes:
 
 ---
 
-### 📌 **Expected Output**  
-
-![Banner & Features Preview](assets/images/banner-features-preview.png)  
-
----
 
 ## 📄 ** Code**  
 ```html
@@ -256,12 +239,6 @@ After the **feature**, our home page includes:
 After the **Why choose us**, our home page includes:  
 ✅ A **stats block section** 
 ✅ A **Testimonial section**
-
----
-
-### 📌 **Expected Output**  
-
-![Banner & Features Preview](assets/images/banner-features-preview.png)  
 
 ---
 
@@ -383,11 +360,6 @@ After the **Testimonial**, our home page includes:
 
 ---
 
-### 📌 **Expected Output**  
-
-![Banner & Features Preview](assets/images/banner-features-preview.png)  
-
----
 
 ## 📄 **Code**  
 
@@ -501,12 +473,6 @@ After the **Testimonial**, our home page includes:
 After the **Call block**, our home page includes:  
 ✅ A **Footer section**  
 ✅  **Some Javascripts**
-
----
-
-### 📌 **Expected Output**  
-
-![Banner & Features Preview](assets/images/banner-features-preview.png)  
 
 ---
 
