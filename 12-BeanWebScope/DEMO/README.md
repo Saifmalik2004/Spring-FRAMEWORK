@@ -1,6 +1,4 @@
-Here's a complete explanation of how different scopes (`@RequestScope`, `@SessionScope`, and `@ApplicationScope`) affect the behavior of the `ContactService` in your Spring Boot application.  
 
----
 
 ## **Understanding Spring Bean Scopes with Demo** 🚀  
 
