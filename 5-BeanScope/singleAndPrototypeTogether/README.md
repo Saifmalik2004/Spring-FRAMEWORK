@@ -133,5 +133,3 @@ System.out.println(order1 == order2); // false (Different objects)
 ---
 
 Now, your coffee shop serves **fresh cups** to every customer while keeping **one shared coffee machine**! ☕🥤  
-
-Let me know if this explanation is clear or if you need more simplification! 🚀
