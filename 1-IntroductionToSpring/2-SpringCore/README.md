@@ -108,17 +108,6 @@ Here, `sum` will be automatically set to `5` when the application runs! 🔢
 
 ---
 
-## 📚 Learning Path: Step by Step Guide
-We will cover each topic **in detail** in separate sections. 📂 Every topic has its **own folder** in this repository with hands-on code examples:
-
-📁 **Spring Core**
-- 📄 [Inversion of Control (IoC)](./ioc/README.md)
-- 📄 [Dependency Injection (DI)](./di/README.md)
-- 📄 [Beans & ApplicationContext](./beans/README.md)
-- 📄 [IoC Container](./container/README.md)
-- 📄 [Spring Expression Language (SpEL)](./spel/README.md)
-
-👉 **Go through these topics one by one, practice the code, and master Spring Core!** 💪🔥
 
 ---
 
