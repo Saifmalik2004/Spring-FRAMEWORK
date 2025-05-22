@@ -60,7 +60,7 @@ Before diving in, ensure you have:
 - **IDE**: IntelliJ IDEA, Eclipse, or VS Code (optional but helpful)
 - Basic knowledge of Spring Boot and JPA
 
-## Adding H2 Dependency 📦
+## Adding H2 and jdbc Dependency 📦
 
 To use H2, we need to add its dependency to the `pom.xml` file. Here’s how:
 
@@ -71,7 +71,12 @@ To use H2, we need to add its dependency to the `pom.xml` file. Here’s how:
     <scope>runtime</scope>
 </dependency>
 ```
-
+```xml
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
+```
 ### Why `runtime` Scope? 🤔
 
 In Maven, the `scope` defines when a dependency is needed:
@@ -285,8 +290,6 @@ SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Excepti
             .ignoringRequestMatchers(PathRequest.toH2Console()))
         .authorizeHttpRequests((requests) -> requests
             .requestMatchers("/dashboard").authenticated()
-            .requestMatchers("/displayMessages").hasRole("ADMIN")
-            .requestMatchers("/closeMsg/**").hasRole("ADMIN")
             .requestMatchers("/", "/home").permitAll()
             .requestMatchers("/holidays/**").permitAll()
             .requestMatchers("/contact").permitAll()
