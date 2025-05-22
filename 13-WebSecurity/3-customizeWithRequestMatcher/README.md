@@ -1,7 +1,3 @@
-Here's your next structured README covering **custom Spring Security configuration** using `requestMatchers`, along with a beginner-friendly explanation of why it's necessary, how it works, and an introduction to CSRF protection.
-
----
-
 # 🔐 Custom Spring Security Configuration – Part 2
 
 In this guide, we move beyond permitting all requests and set up **custom security rules** using `requestMatchers`. This gives us more control by allowing only specific pages to be public, while preparing others to be secured later.
